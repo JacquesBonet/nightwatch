@@ -9,6 +9,6 @@ module.exports.command = function (xpath, callback) {
 
     return this
         .useXpath()
-        .click( "xpath", xpathn, callback)
+        .click( "xpath", xpath, callback)
         .useCss();
 };
