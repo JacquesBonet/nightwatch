@@ -1,36 +1,29 @@
 {
-  "name": "nightwatch",
+  "name": "nightwatch extension",
   "description": "A node.js bindings implementation for selenium 2.0/webdriver",
-  "version": "0.3.7",
+  "version": "0.1.0",
   "author": {
-    "name": "Andrei Rusu",
-    "email": "andrei@nightwatchjs.org"
+    "name": "Jacques Bonet",
+    "email": "jacques.bonet@gmail.com"
   },
   "homepage": "http://nightwatchjs.org",
   "main": "./lib/index.js",
   "licenses": {
     "type": "MIT",
-    "url": "https://raw.github.com/beatfactor/nightwatch/master/LICENSE"
+    "url": "https://raw.github.com/JacquesBonet/nightwatch/master/LICENSE"
   },
-  "bugs": "https://github.com/beatfactor/nightwatch/issues",
+  "bugs": "https://github.com/JacquesBonet/nightwatch/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:beatfactor/nightwatch.git"
+    "url": "git@github.com:JacquesBonet/nightwatch.git"
   },
   "dependencies": {
-    "ejs": ">=0.8.3",
-    "optimist": ">=0.3.5",
-    "minimatch": "~0.2.14",
-    "mkpath": ">=0.1.0"
   },
   "devDependencies": {
-    "nodeunit": "latest"
   },
   "bin": {
-    "nightwatch": "./bin/nightwatch"
   },
   "man": "",
   "scripts": {
-    "test": "node ./tests/run_tests.js"
   }
 }
